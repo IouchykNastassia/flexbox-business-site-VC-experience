@@ -1,0 +1,194 @@
+html {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 18px;
+    color: rgb(22, 20, 20);
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-content {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+header .title {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav li {
+    flex-direction: row;
+}
+
+nav a {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(22, 20, 20);
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+nav a:hover {
+    background-color: rgb(247, 220, 171);
+    border-radius: 4px;
+}
+
+#mission-section {
+    background-image: url('./images/mobile-sector-banner.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-top: 0.5rem solid black;
+    border-bottom: 0.5rem solid black;
+}
+
+#mission {
+    position: relative;
+    background-color: white;
+    height: 6.5rem;
+    width: 100%;
+    top: 120px;
+    display: flex;
+    font-family: 'Lexend Exa', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mission .content {
+    padding-top: 1rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#features-section {
+    margin-top: 1rem;
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto 0.3rem auto;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+img {
+    width: 200px;
+    height: 130px;
+}
+
+.sections .content {
+    padding-top: 0.8rem;
+}
+
+.content a:hover {
+    background-color: rgb(247, 220, 171);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#team-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url('./images/our-team.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    height: 26rem;
+    border-top: 0.5rem solid black;
+    border-bottom: 0.5rem solid black;
+    align-content: space-around;
+    justify-content: center;    
+}
+
+.container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    width: 10.75rem;
+    margin: 1.5rem;
+    height: auto;
+}
+
+.image img {
+    width: 9rem;
+    height: auto;
+}
+
+.team-info {
+    color: rgb(22, 20, 20);
+}
+
+@media only screen and (max-width: 480px) {
+    .images-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 0.2rem solid black;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.copyright {
+    margin-top: 2.2rem;
+}
+
+
+
